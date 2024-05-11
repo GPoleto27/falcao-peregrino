@@ -1,0 +1,58 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/poleto/falcao-peregrino/include",
+                "/home/poleto/falcao-peregrino/src",
+                "/home/poleto/falcao-peregrino/.pio/libdeps/nanoatmega328/Servo/src",
+                "/home/poleto/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/poleto/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/poleto/falcao-peregrino/include",
+                    "/home/poleto/falcao-peregrino/src",
+                    "/home/poleto/falcao-peregrino/.pio/libdeps/nanoatmega328/Servo/src",
+                    "/home/poleto/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/poleto/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/poleto/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60115",
+                "ARDUINO_AVR_NANO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/poleto/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
